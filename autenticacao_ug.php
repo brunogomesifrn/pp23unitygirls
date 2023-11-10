@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> 
+  
   <center>
 <form class="row g-3 needs-validation" novalidate>
   <div class="col-md-4">
@@ -96,5 +98,22 @@
   </div>
 </form>
 </center>
+<footer class="container rodape">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <div class="rodape">
+      <a >&copy; Projeto Unity Girl's</a>
+      <a >IFRN - Campus Canguaretama</a>
+     </div>
+      <nav class="icons">
+          <ul>
+              <li><a href="#"><img src="carousel/whats.png" width="40px"></a></li>
+              <li><a href="#"><img src="carousel/instagram.png" width="40px"></a></li>
+              <li><a href="#"><img src="carousel/telegram.png" width="40px"></a></li>
+              <li><a href="#"><img src="carousel/youtube.png" width="40px"></a></li>
+              <li><a href="#"><img src="carousel/twitter.png" width="40px"></a></li>
+          </ul>
+      </nav>
+  </footer>
+  <script src="bootstrap.bundle.min.js"></script>
 </body>
 </html>
