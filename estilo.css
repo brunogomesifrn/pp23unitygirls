@@ -5,7 +5,7 @@ body
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #ffffff;
+    background-color:white;
     margin-bottom: 10px;
     
 }
@@ -16,24 +16,24 @@ body
     align-items: center;
     margin-bottom: 10px;
     padding-bottom: 20px;
-    position: relative;
-    display: inline-block;
+    /* position: relative; */
+    /* display: inline-block; */
     margin-bottom: 5px;
-    color: black;
-    border: 2px solid rgb(228, 98, 217);
+    color: rgb(199, 61, 192);
+    border: 5px solid rgb(199, 61, 192);
     border-radius: 5px;
     outline: 0;
 
-    display: block;
+    /* display: block; */
 
     font-size: 14px;
 
     width: 400px;
     padding: 14px;
 
-    margin: 50px auto;
+    margin: 0px auto;
     padding: 50px ;
-    margin-top: 100px;
+    margin-top: 200px;
 
 }
 
