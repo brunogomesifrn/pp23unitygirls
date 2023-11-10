@@ -1,22 +1,15 @@
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
   <head><script src="color-modes.js"></script>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.118.2">
     <title>Carousel Template · Bootstrap v5.3</title>
-
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
-
-    
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
-
 <link href="bootstrap.min.css" rel="stylesheet">
-
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -25,13 +18,11 @@
         -moz-user-select: none;
         user-select: none;
       }
-
       @media (min-width: 768px) {
         .bd-placeholder-img-lg {
           font-size: 3.5rem;
         }
       }
-
       .b-example-divider {
         width: 100%;
         height: 3rem;
@@ -40,18 +31,15 @@
         border-width: 1px 0;
         box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
       }
-
       .b-example-vr {
         flex-shrink: 0;
         width: 1.5rem;
         height: 100vh;
       }
-
       .bi {
         vertical-align: -.125em;
         fill: currentColor;
       }
-
       .nav-scroller {
         position: relative;
         z-index: 2;
@@ -71,7 +59,7 @@
       }
 
       .btn-bd-primary {
-        --bd-violet-bg: #712cf9;
+        --bd-violet-bg: #431150;
         --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
 
         --bs-btn-font-weight: 600;
@@ -94,16 +82,28 @@
       .bd-mode-toggle .dropdown-menu .active .bi {
         display: block !important;
       }
- .icons{
-    padding-top: 10px;
-    padding-left: 700px;
-}
-.rodape{
-    padding-bottom: 20px;
-    text-align: center;
-}
-.carro{
+      .carro{
   color: white;
+      }
+      footer {
+	background-color: #a070df;
+	color: #fff;
+  padding: 20px;
+	text-align: center;
+  margin-top: 50px;
+}
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+li {
+	display: inline-block;
+	margin: 0 10px;
+}
+a {
+	color: #fff;
+	text-decoration: none;
 }
     </style>
     <link href="carousel.css" rel="stylesheet">
@@ -124,7 +124,6 @@
         <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
       </symbol>
     </svg>
-
     <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
       <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
               id="bd-theme"
@@ -159,8 +158,6 @@
         </li>
       </ul>
     </div>
-
-    
 <header data-bs-theme="dark">
   <nav class="navbar navbar-expand-md navbar-dark fixed-top " style="background-color: #a070df;" >
     <div class="container-fluid">
@@ -176,11 +173,31 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Início</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Ações</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Ações
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Eventos</a></li>
+              <li><a class="dropdown-item" href="#">Grupos</a></li>
+              <li><a class="dropdown-item" href="#">Premiações</a></li>
+              <li><a class="dropdown-item" href="#">Projetos</a></li>
+              <li><a class="dropdown-item" href="#">Mídias</a></li>
+              <li><a class="dropdown-item" href="#">Personalidades</a></li>
+              <li><a class="dropdown-item" href="#">Notícias</a></li>
+            </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-disabled="true">Artigos</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Artigos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Novidades</a></li>
+              <li><a class="dropdown-item" href="#">Profissões</a></li>
+              <li><a class="dropdown-item" href="#">Cursos</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Tecnologia</a></li>
+            </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-disabled="true">Login</a>
@@ -262,7 +279,7 @@
         
         <img src="ações.png" class="d-block w-100" alt="..." />
         <h2 class="fw-normal">AÇÕES</h2>
-        <p>Ações e prêmios que as mulheres conquistaram </p>
+        <p>Conquistas das mulheres na informática, como premiações, grupos e personalidades</p>
         <p><a class="btn btn-secondary" href="#">Detalhes &raquo;</a></p>
       </div>
     </div>
@@ -281,24 +298,23 @@
         <img src="logo3.png" class="d-block w-100" alt="..." />
       </div>
     </div>
-
-  <footer class="container rodape">
-    <p class="float-end"><a href="#">Back to top</a></p>
-    <div class="rodape">
-      <a >&copy; Projeto Unity Girl's</a>
-      <a >IFRN - Campus Canguaretama</a>
-     </div>
-      <nav class="icons">
-          <ul>
-              <li><a href="#"><img src="whats.png" width="40px"></a></li>
-              <li><a href="#"><img src="instagram.png" width="40px"></a></li>
-              <li><a href="#"><img src="telegram.png" width="40px"></a></li>
-              <li><a href="#"><img src="youtube.png" width="40px"></a></li>
-              <li><a href="#"><img src="twitter.png" width="40px"></a></li>
-          </ul>
-      </nav>
-  </footer>
 </main>
+<footer class="container-fluid rodape">
+  <p class="float-end "><a href="#">Voltar para o início</a></p>
+  <div class="rodape">
+    <a >&copy; Projeto Unity Girl's</a>
+    <a >IFRN - Campus Canguaretama</a>
+   </div>
+    <nav>
+        <ul>
+            <li><a href="#"><img src="whats.png" width="40px"></a></li>
+            <li><a href="#"><img src="instagram.png" width="40px"></a></li>
+            <li><a href="#"><img src="telegram.png" width="40px"></a></li>
+            <li><a href="#"><img src="youtube.png" width="40px"></a></li>
+            <li><a href="#"><img src="twitter.png" width="40px"></a></li>
+        </ul>
+    </nav>
+</footer>
 <script src="bootstrap.bundle.min.js"></script>
     </body>
 </html>
