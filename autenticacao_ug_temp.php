@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en"data-bs-theme="auto">
-  <head><script src="color-modes.js"></script>
+  <head><script src="src/js/color-modes.js"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -9,7 +9,7 @@
     <title>Carousel Template · Bootstrap v5.3</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
-<link href="bootstrap.min.css" rel="stylesheet">
+<link href="src/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> 
   <style>
       
@@ -77,7 +77,7 @@
   <nav class="navbar navbar-expand-md navbar-dark fixed-top " style="background-color: #a070df;" >
     <div class="container-fluid">
       <a class="foto">
-        <img src="carousel/logo.png" width="80px" height="70px">
+        <img src="src/img/logo.png" width="80px" height="70px">
     </a>
       <a class="navbar-brand" href="#">Unity Girls</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -203,14 +203,14 @@
      </div>
       <nav class="icons">
           <ul>
-              <li><a href="#"><img src="carousel/whats.png" width="40px"></a></li>
-              <li><a href="#"><img src="carousel/instagram.png" width="40px"></a></li>
-              <li><a href="#"><img src="carousel/telegram.png" width="40px"></a></li>
-              <li><a href="#"><img src="carousel/youtube.png" width="40px"></a></li>
-              <li><a href="#"><img src="carousel/twitter.png" width="40px"></a></li>
+              <li><a href="#"><img src="src/img/whats.png" width="40px"></a></li>
+              <li><a href="#"><img src="src/img/instagram.png" width="40px"></a></li>
+              <li><a href="#"><img src="src/img/telegram.png" width="40px"></a></li>
+              <li><a href="#"><img src="src/img/youtube.png" width="40px"></a></li>
+              <li><a href="#"><img src="src/img/twitter.png" width="40px"></a></li>
           </ul>
       </nav>
   </footer>
-  <script src="bootstrap.bundle.min.js"></script>
+  <script src="src/js/bootstrap.bundle.min.js"></script>
 </center>
 </body>
