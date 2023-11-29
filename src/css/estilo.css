@@ -16,6 +16,7 @@ body
     align-items: center;
     margin-bottom: 10px;
     padding-bottom: 20px;
+    padding-top: 500px;
     /* position: relative; */
     /* display: inline-block; */
     margin-bottom: 5px;
@@ -39,8 +40,11 @@ body
 
 .rodape
 {
-    padding-bottom: 20px;
-    text-align: center;
+    background-color: #a070df;
+	  color: #fff;
+    padding: 20px;
+   	text-align: center;
+    margin-top: 50px;
 }
 
 .icons
