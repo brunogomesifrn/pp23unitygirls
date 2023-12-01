@@ -76,12 +76,16 @@
             <input type="text" name="nome" id="nome"/>
         </p>
         <p>
-            <label for="data">CPF:</label>
-            <input type="text" name="data" id="data"/>
+            <label for="apelido">Apelido</label>
+            <input type="text" name="apelido" id="apelido"/>
         </p>
         <p>
             <label for="email">E-mail:</label>
             <input type="text" name="email" id="email" />
+        </p>
+        <p>
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha" />
         </p>
         <p> <input type="submit" value="Cadastrar"></p>
     </form>

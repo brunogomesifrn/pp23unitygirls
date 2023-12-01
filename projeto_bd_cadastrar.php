@@ -1,19 +1,19 @@
 <?php 
-
+$email = $_POST["email"];
+$senha = $_POST["senha"];
 $nome = $_POST["nome"];
-$data = $_POST["data"];
-$valor = $_POST["valor"];
+$apelido = $_POST["apelido"];
 
-include "conexao.php";
+include "banco/conexao.php";
 
-$sql = "INSERT INTO projeto
-(nome,data_inicio,valor)
-VALUES ('$nome', '$data', '$valor');";
+$sql = "INSERT INTO usuario
+(email, senha, nome, apelido)
+VALUES ('$email', '$senha', '$nome', '$apelido');";
 
 $result = $conn->query($sql);
 if($result){
     $conn->close();
-    header("Location: projetos.php");
+    header("Location: autenticacao_ug_temp.php");
     die();
 }
 ?>
