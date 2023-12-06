@@ -1,13 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+    <title>Unity Girls</title>
+    <?php include 'bases/head.php' ?>
+  </head>
+  <body>
+    <?php include 'bases/menu.php' ?>
 
-<head>
-<?php include 'bases/head.php' ?>
-</head>
+  <div class="container marketing">
+    <div class="row mt-5">
+      <div class="col-12">
+      
+      <!-- CONTEÚDO AQUI -->
 
-<body>
-<?php include 'bases/menu.php' ?>
+
+      </div>
+    </div>
+</div>
+
 
 <?php include 'bases/rodape.php' ?>
-</body>
 
+    </body>
 </html>
