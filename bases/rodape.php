@@ -14,3 +14,4 @@
         </ul>
     </nav>
 </footer>
+<script src="src/js/bootstrap.bundle.min.js"></script>
