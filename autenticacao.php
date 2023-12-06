@@ -13,16 +13,17 @@
 
 <div class="form">
     <center>
-        <h1>Autenticação:</h1>    
+        <h1>Login:</h1>    
     <form action="bd_autenticacao.php" method="post">
         <p>
-            <label for="nome">Nome:</label>
-            <input type="text" name="nome" id="nome"/>
+            <label for="usuario">Usuario:</label>
+            <input type="text" name="usuario" id="usuario"/>
         </p>
         <p>
             <label for="senha">Senha:</label>
             <input type="password" name="senha" id="senha"/>
         </p>
+        <p> <input type="submit" value="Entrar"></p>
 </form>
 </div>
 </div>

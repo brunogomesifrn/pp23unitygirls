@@ -1,22 +1,38 @@
 <?php
+$nome = $_POST["nome"];
+$usuario = $_POST["usuario"];
+$senha = $_POST["senha"];
 
-function conectar()
-{
-    $servidor = "localhost";
-    $usuario = "root";
-    $senha ="123";
-    $banco = "cadastro";
+//criptografar a sennha
+$senha_cripto = md5($senha);
 
-    $conn = new mysqli($servidor, $usuario, $senha, $banco);
+// conectar o banco de dados
+include "conexao/conexao.php";
+$conn = conectar();
 
-    if ($conn->connect_error) {
-        die("a conexão falhou!" . $conn->connect_error);
+// criar a string de consulta
+$sql = "SELECT * FROM usuario
+WHERE usuario= 'usuario' and
+senha = '$senha_cripto';";
+
+// executar consulta
+$result = $conn->query($sql);
+
+// verificar se retornou alguma coisa
+if($result->num_rows > 0) {
+    // retornou e pode autenticar
+    // retornar nome do usuário
+    while($row = $result->fetch_assoc()){
+        // adicionar o nome á sessão
+        session_start();
+        $_SESSION["usuario"] = $row["nome"];
     }
-
-    return $conn;
+    desconectar($conn);
+    header("Location: perfil.php");
+    die();
+}else{
+    // não retornou e não autentica
+    desconectar($conn);
+    header("Location: ../login.php");
+    die();
 }
-
-function desconectar($conn){
-    $conn->close();
-    }
-    ?>
