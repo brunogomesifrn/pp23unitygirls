@@ -99,10 +99,11 @@
               Usuário
             </a>
             <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="perfil_ug.php">Perfil</a></li>
+            <li><a class="dropdown-item" href="perfil.php">Perfil</a></li>
               <li><a class="dropdown-item" href="#">Meus dados</a></li>
               <li><a class="dropdown-item" href="#">Gerenciar Ações</a></li>
               <li><a class="dropdown-item" href="#">Gerenciar Artigos</a></li>
+              <li><a class="dropdown-item" href="sessao/desconectar.php">Sair</a></li>
             </ul>
           </li>
         </ul>
