@@ -5,7 +5,7 @@ function conectar()
     $servidor = "localhost";
     $usuario = "root";
     $senha ="123";
-    $banco = "cadastro";
+    $banco = "pp23unitygirls";
 
     $conn = new mysqli($servidor, $usuario, $senha, $banco);
 

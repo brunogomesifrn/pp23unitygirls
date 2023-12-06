@@ -1,5 +1,4 @@
 <?php
-$nome = $_POST["nome"];
 $usuario = $_POST["usuario"];
 $senha = $_POST["senha"];
 
@@ -12,8 +11,8 @@ $conn = conectar();
 
 // criar a string de consulta
 $sql = "SELECT * FROM usuario
-WHERE usuario= 'usuario' and
-senha = '$senha_cripto';";
+WHERE apelido='$usuario' and
+senha='$senha_cripto';";
 
 // executar consulta
 $result = $conn->query($sql);
@@ -33,6 +32,6 @@ if($result->num_rows > 0) {
 }else{
     // não retornou e não autentica
     desconectar($conn);
-    header("Location: ../login.php");
+    header("Location: autenticacao.php");
     die();
 }
