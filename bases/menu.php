@@ -74,7 +74,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="autenticacao.php">Cadastro</a>
+            <a class="nav-link active" aria-current="page" href="cadastro.php">Cadastro</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="autenticacao.php">Login</a>
@@ -84,7 +84,7 @@
               Usuário
             </a>
             <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="perfil.php">Perfil</a></li>
+            <li><a class="dropdown-item" href="perfil_ug.php">Perfil</a></li>
               <li><a class="dropdown-item" href="#">Meus dados</a></li>
               <li><a class="dropdown-item" href="#">Gerenciar Ações</a></li>
               <li><a class="dropdown-item" href="#">Gerenciar Artigos</a></li>
