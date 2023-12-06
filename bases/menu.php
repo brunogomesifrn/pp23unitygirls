@@ -45,10 +45,7 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Início</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Login</a>
+            <a class="nav-link active" aria-current="page" href="index.php">Início</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -74,6 +71,23 @@
               <li><a class="dropdown-item" href="#">Cursos</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="#">Tecnologia</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="autenticacao.php">Cadastro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="autenticacao.php">Login</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="perfil.php" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Usuário
+            </a>
+            <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="perfil.php">Perfil</a></li>
+              <li><a class="dropdown-item" href="#">Meus dados</a></li>
+              <li><a class="dropdown-item" href="#">Gerenciar Ações</a></li>
+              <li><a class="dropdown-item" href="#">Gerenciar Artigos</a></li>
             </ul>
           </li>
         </ul>
