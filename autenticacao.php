@@ -3,6 +3,8 @@
   <head>
     <title>Unity Girls</title>
     <?php include 'bases/head.php' ?>
+
+    <link rel="stylesheet" type="text/css" href="src/css/estilo.css">
   </head>
   <body>
     <?php include 'bases/menu.php' ?>
