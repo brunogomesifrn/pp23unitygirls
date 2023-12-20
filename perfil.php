@@ -28,7 +28,7 @@
         <img src="src/img/ações.png" class="d-block w-100" alt="..." />
         <h2 class="fw-normal">&raquo;</h2>
         
-        <p><a class="btn btn-secondary" href="#">Gerenciar Tipo Ações</a></p>
+        <p><a class="btn btn-secondary" href="tipo_acao.php">Gerenciar Tipo Ações</a></p>
 </div>
 
         <div class="col-lg-4">
