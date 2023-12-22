@@ -88,12 +88,22 @@
               <li><a class="dropdown-item" href="#">Tecnologia</a></li>
             </ul>
           </li>
+          <?php 
+          // Verificar se sessão já foi iniciada anteriormentre
+          if(session_id() == '')
+            session_start();
+          
+          if (!isset($_SESSION['usuario'])) {
+          ?>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="cadastro.php">Cadastro</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="autenticacao.php">Login</a>
           </li>
+          <?php 
+          }else{
+          ?>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="perfil.php" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Usuário
@@ -106,6 +116,9 @@
               <li><a class="dropdown-item" href="sessao/desconectar.php">Sair</a></li>
             </ul>
           </li>
+          <?php 
+          }
+          ?>
         </ul>
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
