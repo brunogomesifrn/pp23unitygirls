@@ -1,3 +1,10 @@
+<?php 
+          // Verificar se sessão já foi iniciada anteriormentre
+          if(session_id() == '')
+            session_start();
+          
+     
+          ?>
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
   <head>
