@@ -28,7 +28,7 @@
         <img src="src/img/gerenciar.png" class="d-block w-100" alt="..." />
         <h2 class="fw-normal">&raquo;</h2>
         
-        <p><a class="btn btn-secondary" href="#">Gerenciar Ações</a></p>
+        <p><a class="btn btn-secondary" href="acao.php">Gerenciar Ações</a></p>
       </div>
       <div class="col-lg-4">
         

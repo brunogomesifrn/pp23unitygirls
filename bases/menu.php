@@ -51,7 +51,7 @@
   <nav class="navbar navbar-expand-md navbar-dark fixed-top " style="background-color: #a070df;" >
     <div class="container-fluid">
       <a class="foto">
-        <img src="src/img/logo.png" width="80px" height="70px">
+        <img src="src/img/logo.png"  width="80px" height="70px">
     </a>
       <a class="navbar-brand" href="#">Unity Girls</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
