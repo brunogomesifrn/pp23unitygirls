@@ -11,21 +11,21 @@
     <div class="row mt-5">
       <div class="col-lg-4">
         
-        <img src="src/img/noticia.png" class="d-block w-100" alt="..." />
+        <img src="src/img/dados.png" class="d-block w-100" alt="..." />
         <h2 class="fw-normal">&raquo;</h2>
        
         <p><a class="btn btn-secondary" href="#">Meus dados</a></p>
       </div>
       <div class="col-lg-4">
         
-        <img src="src/img/artigos.png" class="d-block w-100" alt="..." />
+        <img src="src/img/gerenciar.png" class="d-block w-100" alt="..." />
         <h2 class="fw-normal">&raquo;</h2>
         
         <p><a class="btn btn-secondary" href="#">Gerenciar Ações</a></p>
       </div>
       <div class="col-lg-4">
         
-        <img src="src/img/ações.png" class="d-block w-100" alt="..." />
+        <img src="src/img/ação.png" class="d-block w-100" alt="..." />
         <h2 class="fw-normal">&raquo;</h2>
         
         <p><a class="btn btn-secondary" href="#">Gerenciar Tipo Ações</a></p>
@@ -33,7 +33,7 @@
 
         <div class="col-lg-4">
         
-        <img src="src/img/ações.png" class="d-block w-100" alt="..." />
+        <img src="src/img/usuario.png" class="d-block w-100" alt="..." />
         <h2 class="fw-normal">&raquo;</h2>
         
         <p><a class="btn btn-secondary" href="#">Gerenciar Usuários</a></p>
