@@ -36,7 +36,7 @@
         <img src="src/img/ações.png" class="d-block w-100" alt="..." />
         <h2 class="fw-normal">&raquo;</h2>
         
-        <p><a class="btn btn-secondary" href="#">Gerenciar Usuários</a></p>
+        <p><a class="btn btn-secondary" href="usuario.php">Gerenciar Usuários</a></p>
       </div>
       </div>
 
