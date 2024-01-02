@@ -60,18 +60,18 @@
             </p>
 
         <p>
-            Selecione uma ação:<br />
+           
             <?php
                 include "banco/conexao.php";
                 $conn = conectar();
                 $sql = "SELECT * FROM acao";
                 $result = $conn->query($sql);
-                if ($result->num_rows > 0) {
+                if ($result->num_rows > 0) {    
                 while($row = $result->fetch_assoc()) {
                     echo "<input type='radio' name='acao' value='".$row["id"]."' /> ".$row["nome"]."<br />";
                 }
                 } else {
-                echo "Nenhuma ação cadastrada";
+                
                 }
             ?>
         </p>
@@ -90,7 +90,8 @@
             ?>
         </p>
         </p>
-
+        <p><input type="submit" value="Adicionar" />
+        </form>
 
       </div>
     </div>

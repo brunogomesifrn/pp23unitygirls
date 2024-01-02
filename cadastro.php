@@ -1,4 +1,8 @@
- 
+<?php 
+          // Verificar se sessão já foi iniciada anteriormentre
+          if(session_id() == '')
+            session_start();
+          ?>
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="auto"><
   head><script src="src/js/color-modes.js"></script>
