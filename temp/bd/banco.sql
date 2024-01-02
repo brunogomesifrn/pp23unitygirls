@@ -27,4 +27,4 @@ CREATE TABLE IF NOT EXISTS acao(
     id_tipo_acao int,
     FOREIGN KEY (id_tipo_acao) REFERENCES tipo_acao(id)
 );
-
+  
