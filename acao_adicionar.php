@@ -75,6 +75,21 @@
                 }
             ?>
         </p>
+        <p> Selecione um Tipo de ação: <br/>
+        <?php
+                $sql = "SELECT * FROM tipo_acao";
+                $result = $conn->query($sql);
+                if ($result->num_rows > 0) {
+                while($row = $result->fetch_assoc()) {
+                    echo "<input type='radio' name='tipo_acao[]' value='".$row["id"]."' /> ".$row["nome"]."<br />";
+                }
+                } else {
+                echo "Nenhuma área cadastrada";
+                }
+                desconectar($conn);
+            ?>
+        </p>
+        </p>
 
 
       </div>
